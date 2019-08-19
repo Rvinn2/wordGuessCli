@@ -37,6 +37,10 @@ function theLogic(){
         requireNewWord = false;
     }
 
+
+
+
+
     var wordComplete = [];
 
     if(wordComplete.includes(false)){
@@ -48,8 +52,11 @@ function theLogic(){
             }
            
         ]).then(function(input){
-            
+
         })
+
+    }else{
+        console.log("WINNER!\n")
     }
 }
 
